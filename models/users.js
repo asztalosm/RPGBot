@@ -29,6 +29,22 @@ const Users = sequelize.define('users', {
     coins: {
         type: Sequelize.BIGINT,
         allowNull: true,
+    },
+    level: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+    },
+    levelXP: {
+        type: Sequelize.BIGINT,
+        allowNull: true,
+    },
+    characterXP: {
+        type: Sequelize.BIGINT,
+        allowNull:true,
+    },
+    skillPoints: {
+        type: Sequelize.BIGINT,
+        allowNull: true,
     }
 });
 
